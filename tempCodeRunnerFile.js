@@ -1,8 +1,12 @@
-const date = 1
+let countdown = 81; // Start from 81
 
-if (date == 13){
-    console.log("my barth date")
-}
+// let timer = setInterval(() => {
+//   console.log(countdown); // Display the current countdown value
 
-console.log("not my barth date")
+//   if (countdown === 65) { // Stop the countdown when it reaches 65
+//     clearInterval(timer);
+//     console.log("Countdown complete!");
+//   }
 
+//   countdown--; // Decrement the countdown
+// }, 1000); // 1000 milliseconds = 1 second
